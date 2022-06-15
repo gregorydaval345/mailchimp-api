@@ -1,6 +1,6 @@
 import axios from "axios";
 
-function getRequestParams(email) {
+const getRequestParams = (email) => {
   // get env variables
   const API_KEY = process.env.MAILCHIMP_API_KEY;
   const LIST_ID = process.env.MAILCHIMP_AUDIENCE_ID;
