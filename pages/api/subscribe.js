@@ -50,7 +50,7 @@ export default async (req, res) => {
     return res.status(201).json({ error: null });
   } catch (error) {
     return res.status(400).json({
-      error: `Oops, something went wrong... Send me an email at uriklar@gmail.com and I'll add you to the list.`,
+      error: `Oops, something went wrong... Send an email to dontworryaboutit@gmail.com and we'll you get you sorted in no time.`,
     });
 
   }
