@@ -1,7 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 
-export default () => {
+export default function Subscribe() {
+    
   const [email, setEmail] = useState("");
   const [state, setState] = useState("IDLE");
   const [errorMessage, setErrorMessage] = useState(null);
